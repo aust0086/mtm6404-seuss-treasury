@@ -48,8 +48,9 @@ function Books() {
                     <div key={book.id} className="book-card">
                         <Link to={`/books/${book.id}`}>
                             <img src={book.image} alt={book.title}/>
-                            <p>{book.title}</p>
                         </Link>
+                        <p>{book.title}</p>
+
                     </div>
                 ))}
             </div>
